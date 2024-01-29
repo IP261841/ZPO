@@ -16,7 +16,7 @@ public class Ex5 {
         scanner.close();
 
         try {
-            double[] rowananie = wspolczynniki(pierwszyPunktX, drugiPunktX, pierwszyPunktY, drugiPunktY);
+            double[] rowananie = wspolczynniki(pierwszyPunktX, pierwszyPunktY, drugiPunktX, drugiPunktY);
             System.out.println("y = " + rowananie[0] + "x + " + rowananie[1]);
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
