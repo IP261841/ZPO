@@ -1,0 +1,20 @@
+# Aplikacja do zarządzania meczami piłkarskimi
+
+## Opis projektu
+Aplikacja umożliwia dodawanie, zapisywanie i wyświetlanie meczów piłkarskich. Użytkownik może dodawać mecze, podając nazwy drużyn, wynik, typ rozgrywek i sezon. Dodane mecze są zapisywane do pliku JSON, a następnie można je odczytać i wyświetlić.
+
+## Klasa FootballMatch
+Klasa `FootballMatch` reprezentuje pojedynczy mecz piłkarski. Przechowuje informacje o drużynach, wyniku, typie rozgrywek i sezonie. Oferuje metody do przekształcania meczu na obiekt JSON oraz odwrotnie.
+
+## Klasa FootballMatchApp
+Klasa `FootballMatchApp` jest główną klasą aplikacji. Zawiera logikę interakcji z użytkownikiem poprzez konsolę. Umożliwia dodawanie nowych meczów, zapisywanie ich do pliku oraz wyświetlanie istniejących meczów.
+
+## Testy jednostkowe
+W klasie `FootballMatchAppTest` znajdują się testy jednostkowe sprawdzające poprawność działania aplikacji. Testy sprawdzają dodawanie meczów, zapisywanie ich do pliku oraz odczytywanie meczów z pliku.
+
+## Inne pliki
+- `README.md`: Aktualny plik zawierający opis projektu.
+- `FootballMatch.java`: Klasa reprezentująca pojedynczy mecz piłkarski.
+- `FootballMatchApp.java`: Główna klasa aplikacji do zarządzania meczami piłkarskimi.
+- `FootballMatchAppTest.java`: Testy jednostkowe aplikacji.
+- `match.json`: Plik JSON przechowujący zapisane mecze.
